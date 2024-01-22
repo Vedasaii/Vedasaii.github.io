@@ -12,14 +12,19 @@ html {
 
 h1 {
   color: whitesmoke;
-  /* text-align: center;
-  padding-top: 290px; */
+  text-align: center;
+  /* padding-top: 290px; */
+}
+
+.text-center {
+  text-align: center;
 }
 
 hr {
   border-color: #e73617;
   border-width: 3px ;
   max-width: 65px;
+  margin: auto;
 }
 
 .buffer {
@@ -29,9 +34,7 @@ hr {
 .btn {
   font-weight: 700;
   border-radius: 300px;
-}
-
-.btn {
+  margin-top: 2rem;
   background-color: #F05F44;
   border-color: #F05F44;
   --bs-btn-hover-bg: #ee4b08;	
